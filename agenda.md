@@ -2,7 +2,7 @@
 layout: default
 title: Agenda – EuRuKo 2011
 javascripts:
-  - "http://code.jquery.com/jquery-1.6.min.js"
+  - "https://code.jquery.com/jquery-1.6.min.js"
   - "fancybox/jquery.fancybox-1.3.4.pack.js"
 stylesheets:
   - "fancybox/jquery.fancybox-1.3.4.css"
@@ -11,22 +11,22 @@ stylesheets:
 <script type="text/javascript">
   $(function() {
     var $body = $('<div></div>').hide().appendTo($('body'));
-    
+
     $.get('/visitor_info.html', function(data) {
       $(data).find('#visitor-info-map').appendTo($body);
-      
+
       $('a:contains(Visitor Info Map)')
         .attr('href', '#visitor-info-map')
         .fancybox({
           'transitionIn': 'elastic',
           'transitionOut': 'elastic',
-          'speedIn': 150, 
-          'speedOut': 100, 
+          'speedIn': 150,
+          'speedOut': 100,
           'overlayShow': false,
           'hideOnContentClick': true
         });
     });
-    
+
     $.get('/speakers.html', function(data) {
       $(data).find('#speakers li').each(function() {
         var $this = $(this),
@@ -35,12 +35,12 @@ stylesheets:
           $div = $('<div></div>'),
           $link = $('<a></a>'),
           $toggle = $('.schedule td:contains('+name+')');
-                
+
         $div
           .attr({ 'class' : 'speaker', id : domID })
           .html($this.html())
           .appendTo($body);
-        
+
         $link
           .text($toggle.text())
           .addClass('speaker-link')
@@ -48,12 +48,12 @@ stylesheets:
           .fancybox({
             'transitionIn': 'elastic',
             'transitionOut': 'elastic',
-            'speedIn': 150, 
-            'speedOut': 100, 
+            'speedIn': 150,
+            'speedOut': 100,
             'overlayShow': false,
             'hideOnContentClick': true
           });
-        
+
         $toggle.html($link);
       });
       // $(window.document).trigger('euruko:speakers-loaded');
@@ -66,11 +66,11 @@ stylesheets:
 <h3>&nbsp;</h3>
 ### Pre Conference Meetup
 
-![c-base logo](/images/c-base-logo.png)  
-All people who arrive on friday are invited to the pre conference meetup at [c-base](http://www.c-base.org/).  
+![c-base logo](/images/c-base-logo.png)
+All people who arrive on friday are invited to the pre conference meetup at [c-base](http://www.c-base.org/).
 The c-base is an awesome space ship landed in Berlin. We start around 21:00.
 
-You can find it on our [Visitor Info Map](http://goo.gl/maps/gwcZ). The closest subway/S-Bahn station is called "S+U Jannowitzbrücke". 
+You can find it on our [Visitor Info Map](http://goo.gl/maps/gwcZ). The closest subway/S-Bahn station is called "S+U Jannowitzbrücke".
 
 ## Saturday
 
@@ -163,7 +163,7 @@ You can find it on our [Visitor Info Map](http://goo.gl/maps/gwcZ). The closest 
 
 ### Party
 
-![Tante Käthe Logo](/images/tante-kaethe-logo.png)  
+![Tante Käthe Logo](/images/tante-kaethe-logo.png)
 We invite you to party with us and all the EuRuCamp visitors at "Tante Käthe". This location is a pretty unknown jewel of Berlin located right inside the Mauerpark. As hard as it is to find, as fun it will get. <strike>There's a barbecue waiting for you</strike>, lots of beers and a relaxed atmosphere.
 **Update:** There will be no BBQ. We're sorry, but please pick up some food on your way.
 
