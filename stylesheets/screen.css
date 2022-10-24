@@ -1317,7 +1317,16 @@ hr.space {
 
 @font-face {
   font-family: 'TT2020StyleB';
-  src: url('/fonts/TT2020StyleB-Regular.woff2') format('woff2');
+  src: local(''), url('/fonts/TT2020StyleB-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Skranji';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('/fonts/skranji-v13-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/fonts/skranji-v13-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* line 7, ../sass/screen.scss */
@@ -1403,7 +1412,7 @@ body {
 /* line 63, ../sass/screen.scss */
 #sidebar h3 {
   color: #D5BA51;
-  font-family: "chinese-rocks-1", "chinese-rocks-2", helvetica, arial, sans-serif;
+  font-family: "chinese-rocks-1", "chinese-rocks-2", "Skranji", helvetica, arial, sans-serif;
   font-size: 30px;
   margin-bottom: 15px;
   margin-top: 40px;
@@ -1549,7 +1558,8 @@ h1 {
 #content .orga h3 {
   color: #95232d;
   margin: 0;
-  font-family: "TT2020StyleB", arial;
+  font-family: "chainprinter-1", "chainprinter-2", "TT2020StyleB", arial;
+  text-transform: uppercase;
 }
 
 /* line 188, ../sass/screen.scss */
@@ -1567,7 +1577,7 @@ h1,
 h2,
 h3.title {
   color: #95232d;
-  font-family: "chinese-rocks-1", "chinese-rocks-2", helvetica, arial, sans-serif;
+  font-family: "chinese-rocks-1", "chinese-rocks-2", "Skranji", helvetica, arial, sans-serif;
   font-size: 60px;
 }
 
@@ -1585,7 +1595,7 @@ h3.title {
 /* line 212, ../sass/screen.scss */
 h2 {
   clear: both;
-  font-family: "chinese-rocks-1", "chinese-rocks-2", helvetica, arial, sans-serif;
+  font-family: "chinese-rocks-1", "chinese-rocks-2", "Skranji", helvetica, arial, sans-serif;
   margin: 1em 35px 1em 70px;
 }
 
@@ -1736,7 +1746,8 @@ body {
 }
 /* line 50, ../sass/partials/_speakers.scss */
 #speakers h3 {
-  font-family: "TT2020StyleB", arial;
+  font-family: "chainprinter-1", "chainprinter-2", "TT2020StyleB", arial;
+  text-transform: uppercase;
   color: #d5ba51;
 }
 /* line 54, ../sass/partials/_speakers.scss */
