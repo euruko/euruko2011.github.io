@@ -1368,7 +1368,8 @@ body {
 
 /* line 33, ../sass/screen.scss */
 #header a, #header p {
-  font-family: "TT2020StyleB", arial;
+  font-family: "chainprinter-1", "chainprinter-2", "TT2020StyleB", arial;
+  text-transform: uppercase;
   display: block;
   font-size: 16px;
   padding: 0 20px 0 20px;
