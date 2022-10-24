@@ -12,7 +12,7 @@ Germany
 
 Telephone: 004915771564128  
 E-Mail: contact@euruko2011.org  
-Web: euruko2011.org  
+Web: https://2011.euruko.org  
 
 ### Additional Information
 

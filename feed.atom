@@ -4,10 +4,10 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>EuRuKo 2011</title>
-  <link href="http://euruko2011.org/feed.atom" rel="self"/>
-  <link href="http://euruko2011.org/"/>
+  <link href="https://2011.euruko.org/feed.atom" rel="self"/>
+  <link href="https://2011.euruko.org/"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>http://euruko2011.org/</id>
+  <id>https://2011.euruko.org/</id>
   <author>
     <name>EuRuKo 2011</name>
     <email>no-reply@euruko2011.org</email>
@@ -15,9 +15,9 @@ layout: nil
   {% for post in site.posts limit:10 %}
   <entry>
     <title>{{ post.title | xml_escape }}</title>
-    <link href="http://euruko2011.org{{ post.url }}"/>
+    <link href="https://2011.euruko.org{{ post.url }}"/>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
-    <id>http://euruko2011.org{{ post.id }}</id>
+    <id>https://2011.euruko.org{{ post.id }}</id>
     <content type="html">{{ post.content | xml_escape }}</content>
   </entry>
   {% endfor %}

@@ -3,13 +3,13 @@ layout: post
 title: More Tickets
 ---
 
-The next two batches of tickets will go on sale soon. 
+The next two batches of tickets will go on sale soon.
 
 We were a bit surprised by the stampede on Tuesday -- the first batch was sold out within seconds. Therefore we have set up a registration form that will give us a rough idea of how many people want to attend the conference. If the demand is dramatically higher than the available number of tickets, we will try to figure out a creative solution. We already have some ideas ...
 
-Please register here if you plan to attend the conference: 
+Please register here if you plan to attend the conference:
 
-[http://euruko2011.org/attend](http://euruko2011.org/attend)
+[https://2011.euruko.org/attend](https://2011.euruko.org/attend)
 
 ### And here are the details for the next two batches:
 
