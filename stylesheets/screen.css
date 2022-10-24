@@ -1316,7 +1316,7 @@ hr.space {
 }
 
 @font-face {
-  font-family: 'TT2020';
+  font-family: 'TT2020StyleB';
   src: url('/fonts/TT2020Base-Regular.woff2') format('woff2');
 }
 
@@ -1359,7 +1359,7 @@ body {
 
 /* line 33, ../sass/screen.scss */
 #header a, #header p {
-  font-family: "chainprinter-1", "chainprinter-2", arial;
+  font-family: "TT2020StyleB", arial;
   display: block;
   font-size: 16px;
   padding: 0 20px 0 20px;
@@ -1549,7 +1549,7 @@ h1 {
 #content .orga h3 {
   color: #95232d;
   margin: 0;
-  font-family: "chainprinter-1", "chainprinter-2", arial;
+  font-family: "TT2020StyleB", arial;
 }
 
 /* line 188, ../sass/screen.scss */
@@ -1736,7 +1736,7 @@ body {
 }
 /* line 50, ../sass/partials/_speakers.scss */
 #speakers h3 {
-  font-family: "chainprinter-1", "chainprinter-2", arial;
+  font-family: "TT2020StyleB", arial;
   color: #d5ba51;
 }
 /* line 54, ../sass/partials/_speakers.scss */
