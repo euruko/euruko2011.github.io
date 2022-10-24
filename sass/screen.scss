@@ -36,13 +36,14 @@ body {
   margin: 0;
 }
 #header a, #header p {
-  font-family: "TT2020StyleB", arial;
+  font-family: "chainprinter-1", "chainprinter-2", "TT2020StyleB", arial;
   display:block;
   font-size: 16px;
   padding:0 20px 0 20px;
   margin:0;
   height:35px;
   color:#ccc;
+  text-transform: uppercase;
 }
 #header a {
   color: #B9A046;
@@ -188,7 +189,8 @@ h1 {
 #content .orga h3 {
   color: #95232d;
   margin: 0;
-  font-family: "chainprinter-1", "chainprinter-2", arial;
+  font-family: "chainprinter-1", "chainprinter-2", "TT2020StyleB", arial;
+  text-transform: uppercase;
 }
 .orga h3 a {
   display: block;
