@@ -1317,30 +1317,27 @@ hr.space {
 
 @font-face {
   font-family: 'TT2020StyleB';
-  src: local(''), url('/fonts/TT2020StyleB-Regular.woff2') format('woff2');
+  src: local(""), url("/fonts/TT2020StyleB-Regular.woff2") format("woff2");
 }
-
 @font-face {
   font-family: 'Skranji';
   font-style: normal;
   font-weight: 400;
-  src: local(''),
-       url('/fonts/skranji-v13-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('/fonts/skranji-v13-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local(""), url("/fonts/skranji-v13-latin-regular.woff2") format("woff2"), url("/fonts/skranji-v13-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
-/* line 7, ../sass/screen.scss */
+/* line 21, ../sass/screen.scss */
 body {
   color: #3A3000;
 }
 
-/* line 11, ../sass/screen.scss */
+/* line 25, ../sass/screen.scss */
 .rubylove {
-  color: #c31e2a !important;
+  color: #C31E2A !important;
   font-size: 1.5em;
 }
 
-/* line 15, ../sass/screen.scss */
+/* line 29, ../sass/screen.scss */
 #ribbon {
   position: absolute;
   width: 100%;
@@ -1348,69 +1345,69 @@ body {
   top: 0;
 }
 
-/* line 21, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
 .container {
   margin: 0 0 0 106px;
 }
 
-/* line 24, ../sass/screen.scss */
+/* line 38, ../sass/screen.scss */
 #header {
   left: 765px;
   position: absolute;
   top: 100px;
 }
 
-/* line 29, ../sass/screen.scss */
+/* line 43, ../sass/screen.scss */
 #header .container {
   width: 250px;
   margin: 0;
 }
 
-/* line 33, ../sass/screen.scss */
+/* line 47, ../sass/screen.scss */
 #header a, #header p {
   font-family: "chainprinter-1", "chainprinter-2", "TT2020StyleB", arial;
-  text-transform: uppercase;
   display: block;
   font-size: 16px;
   padding: 0 20px 0 20px;
   margin: 0;
   height: 35px;
   color: #ccc;
+  text-transform: uppercase;
 }
 
-/* line 42, ../sass/screen.scss */
+/* line 57, ../sass/screen.scss */
 #header a {
   color: #B9A046;
   text-decoration: none;
 }
 
-/* line 46, ../sass/screen.scss */
+/* line 61, ../sass/screen.scss */
 #header p {
   color: black;
   margin-top: 2em;
 }
 
-/* line 51, ../sass/screen.scss */
+/* line 66, ../sass/screen.scss */
 #header a.last {
   border-right: none;
 }
 
-/* line 54, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 #header a:hover {
   color: #fff;
 }
 
-/* line 57, ../sass/screen.scss */
+/* line 72, ../sass/screen.scss */
 #main {
   padding-top: 40px;
 }
 
-/* line 60, ../sass/screen.scss */
+/* line 75, ../sass/screen.scss */
 #sidebar {
   color: #fff;
 }
 
-/* line 63, ../sass/screen.scss */
+/* line 78, ../sass/screen.scss */
 #sidebar h3 {
   color: #D5BA51;
   font-family: "chinese-rocks-1", "chinese-rocks-2", "Skranji", helvetica, arial, sans-serif;
@@ -1419,19 +1416,19 @@ body {
   margin-top: 40px;
 }
 
-/* line 70, ../sass/screen.scss */
+/* line 85, ../sass/screen.scss */
 #sidebar a {
   color: #D5BA51;
   font-weight: bold;
   text-decoration: none;
 }
 
-/* line 75, ../sass/screen.scss */
+/* line 90, ../sass/screen.scss */
 #sidebar a:hover {
   text-decoration: underline;
 }
 
-/* line 79, ../sass/screen.scss */
+/* line 94, ../sass/screen.scss */
 #content {
   background: #fff;
   -webkit-box-shadow: #fff 0 0 5px;
@@ -1449,65 +1446,65 @@ body {
   padding-bottom: 20px;
 }
 
-/* line 96, ../sass/screen.scss */
+/* line 111, ../sass/screen.scss */
 ul.posts li.post {
   list-style: none;
   margin-bottom: 4em;
 }
 
-/* line 101, ../sass/screen.scss */
+/* line 116, ../sass/screen.scss */
 .post ul {
   margin-left: 80px;
 }
 
-/* line 105, ../sass/screen.scss */
+/* line 120, ../sass/screen.scss */
 #content p img {
   max-width: 100%;
 }
 
-/* line 109, ../sass/screen.scss */
+/* line 124, ../sass/screen.scss */
 #content p {
   font-size: 13px;
   margin: 1em 35px 1em 70px;
 }
 
-/* line 114, ../sass/screen.scss */
+/* line 129, ../sass/screen.scss */
 #content table {
   width: auto;
   font-size: 13px;
   margin: 1em 35px 1em 70px;
 }
 
-/* line 120, ../sass/screen.scss */
+/* line 135, ../sass/screen.scss */
 #content a {
   color: #95232d;
   font-weight: bold;
   text-decoration: none;
 }
 
-/* line 126, ../sass/screen.scss */
+/* line 141, ../sass/screen.scss */
 #content a:hover {
   text-decoration: underline;
 }
 
-/* line 132, ../sass/screen.scss */
+/* line 145, ../sass/screen.scss */
 #content h1,
 #content h2,
 #content h3 {
   margin: .5em 35px .3em 70px;
 }
 
-/* line 136, ../sass/screen.scss */
+/* line 151, ../sass/screen.scss */
 h1 {
   font-size: 60px;
 }
 
-/* line 140, ../sass/screen.scss */
+/* line 155, ../sass/screen.scss */
 .post li {
   font-size: 13px;
 }
 
-/* line 144, ../sass/screen.scss */
+/* line 159, ../sass/screen.scss */
 #content h3 ~ h3 {
   color: #7E6C1E;
   font-size: 13px;
@@ -1515,7 +1512,7 @@ h1 {
   margin: 2em 35px 1em 70px;
 }
 
-/* line 151, ../sass/screen.scss */
+/* line 166, ../sass/screen.scss */
 .date {
   font-size: 0.5em;
   color: #D5BA51;
@@ -1523,39 +1520,39 @@ h1 {
   white-space: nowrap;
 }
 
-/* line 158, ../sass/screen.scss */
+/* line 173, ../sass/screen.scss */
 .nolist li {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
-/* line 164, ../sass/screen.scss */
+/* line 179, ../sass/screen.scss */
 .nolist .date {
   color: #fff;
   font-size: 100%;
   margin: 0;
 }
 
-/* line 170, ../sass/screen.scss */
+/* line 185, ../sass/screen.scss */
 .nolist .date:after {
   content: ":";
 }
 
-/* line 174, ../sass/screen.scss */
+/* line 189, ../sass/screen.scss */
 .orga {
   height: 90px;
   width: 300px;
   margin-bottom: 20px;
 }
 
-/* line 179, ../sass/screen.scss */
+/* line 194, ../sass/screen.scss */
 .orga img {
   float: left;
   margin: 0 10px 0 70px;
 }
 
-/* line 183, ../sass/screen.scss */
+/* line 198, ../sass/screen.scss */
 #content .orga h3 {
   color: #95232d;
   margin: 0;
@@ -1563,17 +1560,17 @@ h1 {
   text-transform: uppercase;
 }
 
-/* line 188, ../sass/screen.scss */
+/* line 204, ../sass/screen.scss */
 .orga h3 a {
   display: block;
 }
 
-/* line 191, ../sass/screen.scss */
+/* line 207, ../sass/screen.scss */
 .orga h3 a:first-child {
   text-decoration: none;
 }
 
-/* line 197, ../sass/screen.scss */
+/* line 211, ../sass/screen.scss */
 h1,
 h2,
 h3.title {
@@ -1582,36 +1579,36 @@ h3.title {
   font-size: 60px;
 }
 
-/* line 203, ../sass/screen.scss */
+/* line 219, ../sass/screen.scss */
 #content .title a {
   color: #95232d;
   text-decoration: none;
 }
 
-/* line 208, ../sass/screen.scss */
+/* line 224, ../sass/screen.scss */
 #content .title a:hover {
   color: #D5BA51;
 }
 
-/* line 212, ../sass/screen.scss */
+/* line 228, ../sass/screen.scss */
 h2 {
   clear: both;
   font-family: "chinese-rocks-1", "chinese-rocks-2", "Skranji", helvetica, arial, sans-serif;
   margin: 1em 35px 1em 70px;
 }
 
-/* line 218, ../sass/screen.scss */
+/* line 234, ../sass/screen.scss */
 html {
   background: url(/images/background.jpg) #95232d repeat;
 }
 
-/* line 222, ../sass/screen.scss */
+/* line 238, ../sass/screen.scss */
 body {
   background: url(/images/logo.jpg) no-repeat;
   padding-top: 420px;
 }
 
-/* line 228, ../sass/screen.scss */
+/* line 243, ../sass/screen.scss */
 .su,
 .sp {
   list-style: none;
@@ -1620,7 +1617,7 @@ body {
   overflow: hidden;
 }
 
-/* line 236, ../sass/screen.scss */
+/* line 251, ../sass/screen.scss */
 .sp li,
 .su li {
   float: left;
@@ -1632,7 +1629,7 @@ body {
   width: 100px;
 }
 
-/* line 246, ../sass/screen.scss */
+/* line 262, ../sass/screen.scss */
 .sp li {
   height: auto;
   line-height: auto;
@@ -1640,28 +1637,28 @@ body {
   width: 230px;
 }
 
-/* line 253, ../sass/screen.scss */
+/* line 269, ../sass/screen.scss */
 .su img {
   max-height: 60px;
   max-width: 100px;
   vertical-align: middle;
 }
 
-/* line 259, ../sass/screen.scss */
+/* line 275, ../sass/screen.scss */
 .sp img {
   max-height: 100px;
   max-width: 230px;
   vertical-align: middle;
 }
 
-/* line 265, ../sass/screen.scss */
+/* line 281, ../sass/screen.scss */
 .su a {
   display: block;
   text-align: center;
   width: 100px;
 }
 
-/* line 271, ../sass/screen.scss */
+/* line 287, ../sass/screen.scss */
 .rubyists {
   float: left;
   margin: 0 10px 0 0;
@@ -1681,13 +1678,9 @@ body {
   position: relative;
   -moz-box-shadow: rgba(91, 80, 67, 0.3) 0 1px 4px, rgba(211, 204, 195, 0.5) 0 0 5px inset;
   -webkit-box-shadow: rgba(91, 80, 67, 0.3) 0 1px 4px, rgba(211, 204, 195, 0.5) 0 0 5px inset;
-  -o-box-shadow: rgba(91, 80, 67, 0.3) 0 1px 4px, rgba(211, 204, 195, 0.5) 0 0 5px inset;
   box-shadow: rgba(91, 80, 67, 0.3) 0 1px 4px, rgba(211, 204, 195, 0.5) 0 0 5px inset;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
-  -o-border-radius: 2px;
-  -ms-border-radius: 2px;
-  -khtml-border-radius: 2px;
   border-radius: 2px;
 }
 /* line 15, ../sass/partials/_speakers.scss */
@@ -1701,13 +1694,9 @@ body {
   z-index: -2;
   -moz-box-shadow: rgba(91, 80, 67, 0.4) 0 0 10px;
   -webkit-box-shadow: rgba(91, 80, 67, 0.4) 0 0 10px;
-  -o-box-shadow: rgba(91, 80, 67, 0.4) 0 0 10px;
   box-shadow: rgba(91, 80, 67, 0.4) 0 0 10px;
-  -webkit-border-radius: 5px 50%;
   -moz-border-radius: 5px / 50%;
-  -o-border-radius: 5px / 50%;
-  -ms-border-radius: 5px / 50%;
-  -khtml-border-radius: 5px / 50%;
+  -webkit-border-radius: 5px 50%;
   border-radius: 5px / 50%;
 }
 /* line 26, ../sass/partials/_speakers.scss */
@@ -1721,7 +1710,6 @@ body {
   z-index: 20;
   -moz-box-shadow: #fdfbf5 0 0 5px inset;
   -webkit-box-shadow: #fdfbf5 0 0 5px inset;
-  -o-box-shadow: #fdfbf5 0 0 5px inset;
   box-shadow: #fdfbf5 0 0 5px inset;
 }
 /* line 37, ../sass/partials/_speakers.scss */
@@ -1729,16 +1717,12 @@ body {
   margin: 10px 10px 16px;
   -moz-box-shadow: rgba(91, 80, 67, 0.1) 0 1px 5px;
   -webkit-box-shadow: rgba(91, 80, 67, 0.1) 0 1px 5px;
-  -o-box-shadow: rgba(91, 80, 67, 0.1) 0 1px 5px;
   box-shadow: rgba(91, 80, 67, 0.1) 0 1px 5px;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
-  -o-border-radius: 2px;
-  -ms-border-radius: 2px;
-  -khtml-border-radius: 2px;
   border-radius: 2px;
 }
-/* line 46, ../sass/partials/_speakers.scss */
+/* line 44, ../sass/partials/_speakers.scss */
 #speakers p,
 #speakers h2,
 #speakers h3 {
@@ -1749,7 +1733,7 @@ body {
 #speakers h3 {
   font-family: "chainprinter-1", "chainprinter-2", "TT2020StyleB", arial;
   text-transform: uppercase;
-  color: #d5ba51;
+  color: #D5BA51;
 }
 /* line 54, ../sass/partials/_speakers.scss */
 #speakers h2 {
