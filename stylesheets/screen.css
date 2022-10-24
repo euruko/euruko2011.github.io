@@ -1315,6 +1315,11 @@ hr.space {
   clear: both;
 }
 
+@font-face {
+  font-family: 'TT2020';
+  src: url('/fonts/TT2020Base-Regular.woff2') format('woff2');
+}
+
 /* line 7, ../sass/screen.scss */
 body {
   color: #3A3000;

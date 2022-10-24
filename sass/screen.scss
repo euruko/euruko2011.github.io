@@ -4,6 +4,11 @@
 $yellow: #D5BA51;
 $red: #95232D;
 
+@font-face {
+  font-family: 'TT2020StyleB';
+  src: url('/fonts/TT2020Base-Regular.woff2') format('woff2');
+}
+
 body {
   color: #3A3000;
 }
@@ -31,7 +36,7 @@ body {
   margin: 0;
 }
 #header a, #header p {
-  font-family: "chainprinter-1", "chainprinter-2", arial;
+  font-family: "TT2020StyleB", arial;
   display:block;
   font-size: 16px;
   padding:0 20px 0 20px;
